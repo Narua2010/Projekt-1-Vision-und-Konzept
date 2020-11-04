@@ -1,8 +1,8 @@
 # Projekt-1-Vision-und-Konzept
 Gruppe 1
 
-Facilitytor: Anna <br>
+Facilitytor: Anna Subach<br>
 Decider: <br>
-Documentory: Pascal <br>
-Scribbeln: <br>
-Coden: Javad / Patrick Albus
+Documentory: Pascal Schorde<br>
+Scribbeln: Shabnam Ramzani <br>
+Coden: Javad Alamdar / Patrick Albus
