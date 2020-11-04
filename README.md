@@ -1,8 +1,3 @@
-# Projekt-1-Vision-und-Konzept
-Gruppe 1
+# Willkommen zum Projekt 1 - Vision und Konzept
 
-Facilitytor: Anna Subach<br>
-Decider: Prof. Christian Noss / Patrick Albus <br>
-Documentory: Pascal Schorde<br>
-Scribbeln: Shabnam Ramzani <br>
-Coden: Javad Alamdar
+[Informationen zum Projekt und der Gruppe im Wiki](https://github.com/Narua2010/Projekt-1-Vision-und-Konzept/wiki/Projekt-1-Vision-und-Konzept)
