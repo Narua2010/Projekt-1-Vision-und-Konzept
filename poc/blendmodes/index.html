@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <style>
+
+            img {
+                height: 100%;
+                vertical-align: middle;
+            }
+
+            /* Blendmodes */
+
+            .mode-normal {
+                mix-blend-mode: normal;
+                background-blend-mode: normal;
+            }
+
+            .mode-multiply {
+                mix-blend-mode: multiply;
+                background-blend-mode: multiply;
+            }
+
+            .mode-color {
+                mix-blend-mode: color;
+                background-blend-mode: color;
+            }
+
+            .mode-color-burn {
+                mix-blend-mode: color-burn;
+                background-blend-mode: color-burn;
+            }
+
+            .mode-color-dodge {
+                mix-blend-mode: color-dodge;
+                background-blend-mode: color-dodge;
+            }
+
+            .mode-darken {
+                mix-blend-mode: darken;
+                background-blend-mode: darken;
+            }
+
+            .mode-difference {
+                mix-blend-mode: difference;
+                background-blend-mode: difference;
+            }
+
+            .mode-exclusion {
+                mix-blend-mode: exclusion;
+                background-blend-mode: exclusion;
+            }
+
+            .mode-hard-light {
+                mix-blend-mode: hard-light;
+                background-blend-mode: hard-light;
+            }
+
+            .mode-hue {
+                mix-blend-mode: hue;
+                background-blend-mode: hue;
+            }
+
+            .mode-lighten {
+                mix-blend-mode: lighten;
+                background-blend-mode: lighten;
+            }
+
+            .mode-luminosity {
+                mix-blend-mode: luminosity;
+                background-blend-mode: luminosity;
+            }
+
+            .mode-overlay {
+                mix-blend-mode: overlay;
+                background-blend-mode: overlay;
+            }
+
+            .mode-saturation {
+                mix-blend-mode: saturation;
+                background-blend-mode: saturation;
+            }
+
+            .mode-screen {
+                mix-blend-mode: screen;
+                background-blend-mode: screen;
+            }
+
+            .mode-soft-light {
+                mix-blend-mode: soft-light;
+                background-blend-mode: soft-light;
+            }
+
+            .img-bg-original {
+                background-image: url("prototyp-original.png");
+                background-size: cover;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <h1 class="is-size-1">Proof-of-Concept - Projekt I - Blendmodes</h1>
+            <p class="block">
+                Untersuchung verschiedener Blendmodes für etwaigen Erkenntnisgewinn für den Einsatz in Projekt I. Die Blendmodes werden per CSS durchgeführt. 
+                Mit der CSS Eigenschaft <code>mix-blend-mode</code> lassen sich Bilder mit dem Hintergrund überblenden.
+            </p>
+    
+            <h3 class="is-size-3">Blendmode <i>normal</i></h3>
+            <div class="columns mb-1 is-gapless is-mobile">
+                <div class="column">
+                    Original
+                </div>
+                <div class="column">
+                    Xray
+                </div>
+                <div class="column">
+                    Infrared
+                </div>
+                <div class="column">
+                    Radio
+                </div>
+                <div class="column">
+                    UV
+                </div>
+            </div>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-normal">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-normal">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-normal">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-normal">
+                </div>
+            </div>
+
+
+            <h3 class="is-size-3">Blendmode <i>mulitply</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-multiply">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-multiply">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-multiply">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-multiply">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>color</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-color">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-color">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-color">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-color">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>color-burn</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-color-burn">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-color-burn">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-color-burn">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-color-burn">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>color-dodge</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-color-dodge">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-color-dodge">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-color-dodge">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-color-dodge">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>darken</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-darken">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-darken">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-darken">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-darken">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>difference</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-difference">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-difference">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-difference">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-difference">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>exclusion</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-exclusion">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-exclusion">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-exclusion">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-exclusion">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>hard-light</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-hard-light">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-hard-light">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-hard-light">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-hard-light">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>hue</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-hue">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-hue">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-hue">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-hue">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>lighten</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-lighten">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-lighten">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-lighten">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-lighten">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>luminosity</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-luminosity">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-luminosity">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-luminosity">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-luminosity">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>overlay</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-overlay">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-overlay">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-overlay">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-overlay">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>saturation</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-saturation">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-saturation">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-saturation">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-saturation">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>screen</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-screen">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-screen">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-screen">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-screen">
+                </div>
+            </div>
+
+            <h3 class="is-size-3">Blendmode <i>soft-light</i></h3>
+            <div class="columns is-gapless pb-4 is-mobile">
+                <div class="column img-bg-original">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-xray.png" class="mode-soft-light">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-infra.png" class="mode-soft-light">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-radio.png" class="mode-soft-light">
+                </div>
+                <div class="column img-bg-original">
+                    <img src="prototyp-uv.png" class="mode-soft-light">
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="" async defer></script>
+    </body>
+</html>
