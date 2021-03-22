@@ -1,1 +1,1 @@
-todo Beschreibung zum PoC Blendmodes ergänzen
+## PoC - Blendmodes
