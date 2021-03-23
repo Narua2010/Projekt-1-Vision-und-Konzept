@@ -31,7 +31,7 @@ Coden/Scribbeln: [Javad Alamdar](https://github.com/javadalam)
 
 ## Konzeption
 
-## [Proof-of-Concept](https://github.com/Narua2010/Projekt-1-Vision-und-Konzept/wiki/Proof-of-Concept)
+## [Proof-of-Concepts](https://narua2010.github.io/Projekt-1-Vision-und-Konzept/poc/)
 
 ## [Abschlusspräsentation](https://1drv.ms/p/s!AtfJufJcEpvBi0oSZmRgjnhkzzKx?e=1Ucbur)
 
