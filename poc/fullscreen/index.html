@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="img-placeholder"> </div>
+    <img class="img-full-screen" src="../assets/Caranch1.jpg" alt="caranch" />
+    <img class="img-full-screen" src="../assets/Caranch2.jpg" alt="caranch" />
+    <img class="img-full-screen" src="../assets/Caranch3.jpg" alt="caranch" />
+
+    <script>
+
+        $('.img-full-screen').click(function () {
+
+            $('body').addClass('scroll-disabled');
+
+
+            $('meta[name=viewport]').attr('content', 'width = device-width, initial-scale = 1.00, minimum-scale = 1.00, maximum-scale = 2.00, user-scalable=yes');
+
+
+            var imagePath = $(this).attr('src');
+
+
+            $('.img-placeholder').attr('style', 'background-image: url(' + imagePath + ')');
+
+
+            $('.img-placeholder').fadeIn();
+
+        });
+
+        $('.img-placeholder').click(function () {
+
+
+            $('body').removeClass('scroll-disabled');
+
+
+            $('meta[name=viewport]').attr('content', 'width = device-width, initial-scale = 1.00, minimum-scale = 1.00, maximum-scale = 1.00');
+
+            $('.img-placeholder').fadeOut();
+        });
+    </script>
+</body>
+
+</html>
