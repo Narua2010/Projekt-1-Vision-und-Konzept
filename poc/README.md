@@ -4,4 +4,5 @@ Für das Konzept des Bildvergleichs im Projekt I werden Proof-of-Concepts benöt
 
 * [Blendmodes](blendmodes/index.html)
 * [Multislider](multislider/index.html)
-* [Zoom](zoom/index.html)
+* [Simultanes Zoom](zoom/index.html)
+* [Fullscreen](fullscreen/index.html)
