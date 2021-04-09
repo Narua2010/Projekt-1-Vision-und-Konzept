@@ -12,11 +12,11 @@ Coden/Scribbeln: [Javad Alamdar](https://github.com/javadalam)
 
 Das _Projekt 1 - Vision und Konzept_ des Masters Medieninformatik - Schwerpunkt Weaving the Web, befasst sich mit dem Lucas Cranach Archiv. Unter [Projekt Infos - Can't touch this](https://th-koeln.github.io/mi-master-wtw/projektthemen/2020-ws-project-1/index/) finden sich die initialen Projektdaten. In diesem Jahr wird im Rahmen des Master Projekts der Blick auf einzelne Artefakte gerichtet. Im Kontext einer Web-Anwendung sollen die Möglichkeiten zur Darstellung der einzelnen Artefakte eruiert, konzipiert und eine technische Machbarkeiten evaluiert werden, um eine Erkundungsmöglichkeit zu schaffen, die im Realraum nicht umsetzbar wäre. 
 
-Im folgenden wir das Konzept des _Bildvergleiches_ der verschiedenen Aufnahmentypen eines Artefakts beschrieben, um allen Projektmitgliedern die im Sommersemester 2021 in das _Projekt 2 - Entwicklung_ starten, einen einfachen Einstieg geben zu können. Die gewonnenen Erkenntnisse können auf den Methoden des [_Design Sprints_](https://designsprint.org/de/) und den [_Nutzertests_](wiki/Sprint-Day-4) zurückgeführt werden. Da wo es für diese Beschreibung sinnvoll ist, werden die Arbeitsergebnisse entsprechend zur Vertiefung referenziert.
+Im folgenden wir das Konzept des _Bildvergleiches_ der verschiedenen Aufnahmentypen eines Artefakts beschrieben, um allen Projektmitgliedern die im Sommersemester 2021 in das _Projekt 2 - Entwicklung_ starten, einen einfachen Einstieg geben zu können. Die gewonnenen Erkenntnisse können auf den Methoden des [_Design Sprints_](https://designsprint.org/de/) und den [_Nutzertests_](../../wiki/Sprint-Day-4) zurückgeführt werden. Da wo es für diese Beschreibung sinnvoll ist, werden die Arbeitsergebnisse entsprechend zur Vertiefung referenziert.
 
 ## Konzept: Bildvergleich
 
-Eine identifizierte Eigenschaft betraf die vielen verschiedenen Aufnahmen und insbesondere der Aufnahmetypen wie Infrarot, Infrarot-Reflektografie, Röntgen, UV-Fluoreszenzen und Detailaufnahmen eines Artefakts (z. B. [Frau eines Rechtsgelehrten - 1503](https://lucascranach.org/DE_smbGG_1907)). Für das Konzept wurde sich diesbezüglich überlegt, wie eine sinnvolle den _Sprint Fragen_ korrespondierenden Umsetzung aussehen könnte (vgl. [_Sprint Tag 1_](wiki/Sprint-Day-1#sprint-questions)). Der erste getestete Ansatz sah einen Vergleich mittels Slidern vor, der dem Nutzer erlaubt die verschiedenen Aufnahmetypen ein- oder auszublenden (vgl. [_Proof-of-Concept_](https://narua2010.github.io/Projekt-1-Vision-und-Konzept/poc/multislider/index.html) und [_Solution Sketches_](wiki/Sprint-Day-2)). Aus den Nutzertest wurde angemerkt, dass die gewählte Methode ab drei Ebene kaum oder keine Erkenntnisse mehr liefern könnte. Diese wurde in einem Proof-of-Concept (siehe [PoC - Multislider](https://narua2010.github.io/Projekt-1-Vision-und-Konzept/poc/multislider/index.html)) bestätigt. Daher ist eine alternative Darstellung zu eruieren. Zum Beispiel könnten die Aufnahme eines Gemäldes im Raster dargestellt werden.
+Eine identifizierte Eigenschaft betraf die vielen verschiedenen Aufnahmen und insbesondere der Aufnahmetypen wie Infrarot, Infrarot-Reflektografie, Röntgen, UV-Fluoreszenzen und Detailaufnahmen eines Artefakts (z. B. [Frau eines Rechtsgelehrten - 1503](https://lucascranach.org/DE_smbGG_1907)). Für das Konzept wurde sich diesbezüglich überlegt, wie eine sinnvolle den _Sprint Fragen_ korrespondierenden Umsetzung aussehen könnte (vgl. [_Sprint Tag 1_](../../wiki/Sprint-Day-1#sprint-questions)). Der erste getestete Ansatz sah einen Vergleich mittels Slidern vor, der dem Nutzer erlaubt die verschiedenen Aufnahmetypen ein- oder auszublenden (vgl. [_Proof-of-Concept_](https://narua2010.github.io/Projekt-1-Vision-und-Konzept/poc/multislider/index.html) und [_Solution Sketches_](../../wiki/Sprint-Day-2)). Aus den Nutzertest wurde angemerkt, dass die gewählte Methode ab drei Ebene kaum oder keine Erkenntnisse mehr liefern könnte. Diese wurde in einem Proof-of-Concept (siehe [PoC - Multislider](https://narua2010.github.io/Projekt-1-Vision-und-Konzept/poc/multislider/index.html)) bestätigt. Daher ist eine alternative Darstellung zu eruieren. Zum Beispiel könnten die Aufnahme eines Gemäldes im Raster dargestellt werden.
 
 ## Zielsetzung
 
@@ -43,18 +43,18 @@ Weitere Informationen finden Sie auf den verlinken Seiten im Wiki.
 
 ## Design Sprints
 
-### [Sprint Tag 1](wiki/Sprint-Day-1)
+### [Sprint Tag 1](../../wiki/Sprint-Day-1)
 
-### [Sprint Tag 2](wiki/Sprint-Day-2)
+### [Sprint Tag 2](../../wiki/Sprint-Day-2)
 
-### [Sprint Tag 3](Swiki/print-Day-3)
+### [Sprint Tag 3](../../wiki/Sprint-Day-3)
 
-### [Sprint Tag 4](wiki/Sprint-Day-4)
+### [Sprint Tag 4](../../wiki/Sprint-Day-4)
 
-## [Prozessprotokoll und Reflexion](wiki/Prozessprotokoll-Reflexion)
+## [Prozessprotokoll und Reflexion](../../wiki/Prozessprotokoll-Reflexion)
 
-## [Backlog](projects/3)
+## [Backlog](../../projects/3)
 
 ## [Proof-of-Concepts](https://narua2010.github.io/Projekt-1-Vision-und-Konzept/poc/)
 
-## [Abschlusspräsentation](wiki/Abschlusspräsentation)
+## [Abschlusspräsentation](../../wiki/Abschlusspräsentation)
