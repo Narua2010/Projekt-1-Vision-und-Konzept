@@ -35,7 +35,7 @@ Für die Entwicklung des Konzepts stehen die Studieren sich technischen und visu
 * Inwieweit müssen und können Aufnahmen algorithmisch bezüglich unterschiedlicher Seitenverhältnisse angeglichen werden?
 * Sind mögliche Anpassungen auch im Browser zu realsieren oder benötigt es eine Aufbereitung der Daten/Aufnahmen?
 
-Das [Backlog](projects/3) gibt Ihnen einen Gesamtblick der Aufgaben im Sommersemester.
+Das [Backlog](../../projects/3) gibt Ihnen einen Gesamtblick der Aufgaben im Sommersemester.
 
 Weitere Informationen finden Sie auf den verlinken Seiten im Wiki.
 
